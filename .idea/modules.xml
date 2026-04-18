@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartCookieWeb.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartCookieWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartCookieWeb.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Shield.iml" filepath="$PROJECT_DIR$/.idea/modules/Shield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shield.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shield.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shield.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shield.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shield.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shield.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Shield.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Shield.app.unitTest.iml" />
     </modules>
   </component>
 </project>
