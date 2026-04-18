@@ -33,7 +33,7 @@ class  SearchEngineProvider @Inject constructor(
             1 -> DuckSuggestionsModel(okHttpClient, requestFactory, application, logger)
             2 -> BaiduSuggestionsModel(okHttpClient, requestFactory, application, logger)
             3 -> NaverSuggestionsModel(okHttpClient, requestFactory, application, logger)
-            4 -> SmartCookieWebSuggestionsModel(okHttpClient, requestFactory, application, logger)
+            4 -> ShieldSuggestionsModel(okHttpClient, requestFactory, application, logger)
             5 -> NoOpSuggestionsRepository()
             else -> GoogleSuggestionsModel(okHttpClient, requestFactory, application, logger)
         }

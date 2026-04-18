@@ -533,7 +533,7 @@ class LightningWebClient internal constructor(private val mActivity: Activity, p
                 try {
                     mActivity.startActivity(intent)
                 } catch (e: Exception) {
-                    println("SmartCookieWeb: cannot open downloaded file")
+                    println("Shield: cannot open downloaded file")
                 }
 
             } else {

@@ -64,7 +64,7 @@ import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 import kotlin.math.abs
 
-class SmartCookieWebClient(
+class ShieldClient(
         private val activity: Activity,
         private val smartCookieView: SmartCookieView
 ) : WebViewClient() {
@@ -259,7 +259,7 @@ class SmartCookieWebClient(
                 .subscribeOn(databaseScheduler)
                 .subscribe { aBoolean: Boolean? ->
                     if (!aBoolean!!) {
-                        logger.log("SmartCookieWebClient", "error saving script to database")
+                        logger.log("ShieldClient", "error saving script to database")
                     }
                 }
     }
@@ -993,7 +993,7 @@ class SmartCookieWebClient(
                 try {
                     activity.startActivity(intent)
                 } catch (e: Exception) {
-                    println("SmartCookieWebClient: cannot open downloaded file")
+                    println("ShieldClient: cannot open downloaded file")
                 }
 
             } else {
@@ -1031,7 +1031,7 @@ class SmartCookieWebClient(
 
     companion object {
 
-        private const val TAG = "SmartCookieWebClient"
+        private const val TAG = "ShieldClient"
 
     }
 }

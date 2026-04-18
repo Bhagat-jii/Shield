@@ -135,7 +135,7 @@ class SmartCookieView(
     @Inject @field:MainScheduler internal lateinit var mainScheduler: Scheduler
     @Inject lateinit var networkConnectivityModel: NetworkConnectivityModel
 
-    private val smartCookieWebClient: SmartCookieWebClient
+    private val smartCookieWebClient: ShieldClient
 
     private val networkDisposable: Disposable
 
@@ -204,7 +204,7 @@ class SmartCookieView(
         titleInfo = SmartCookieViewTitle(activity)
 
         maxFling = ViewConfiguration.get(activity).scaledMaximumFlingVelocity.toFloat()
-        smartCookieWebClient = SmartCookieWebClient(activity, this)
+        smartCookieWebClient = ShieldClient(activity, this)
         gestureDetector = GestureDetector(activity, CustomGestureListener())
 
         val tab = WebView(activity).also { webView = it }.apply {

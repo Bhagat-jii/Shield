@@ -17,7 +17,7 @@ import com.cookiegames.smartcookie.settings.activity.ThemableSettingsActivity
 import com.cookiegames.smartcookie.settings.fragment.*
 import com.cookiegames.smartcookie.view.SmartCookieChromeClient
 import com.cookiegames.smartcookie.view.SmartCookieView
-import com.cookiegames.smartcookie.view.SmartCookieWebClient
+import com.cookiegames.smartcookie.view.ShieldClient
 import android.app.Application
 import com.cookiegames.smartcookie.download.DownloadActivity
 import com.cookiegames.smartcookie.history.HistoryActivity
@@ -62,7 +62,7 @@ interface AppComponent {
 
     fun inject(activity: ReadingActivity)
 
-    fun inject(webClient: SmartCookieWebClient)
+    fun inject(webClient: ShieldClient)
 
     fun inject(activity: SettingsActivity)
 
