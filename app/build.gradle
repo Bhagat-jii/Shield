@@ -187,7 +187,7 @@ dependencies {
 
     // memory leak analysis
     final def leakCanaryVersion = '2.10'
-    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leakCanaryVersion"
+    
 
     // code editor
     implementation 'com.github.ahmadaghazadeh:CodeEditor:1.0.17'

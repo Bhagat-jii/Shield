@@ -40,7 +40,7 @@
         android:name="android.hardware.touchscreen"
         android:required="false" />
 
-    <application
+    <application android:hardwareAccelerated="true"
         android:name=".BrowserApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
